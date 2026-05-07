@@ -1,0 +1,109 @@
+{
+  "id": "saas-app",
+  "name": "SaaS Application",
+  "description": "A standard SaaS app with frontend, backend, database, auth, and dashboard patterns.",
+  "baseFiles": [
+    "core/ai-coding-rules.md",
+    "core/naming-conventions.md",
+    "core/documentation-style.md",
+    "project-types/saas-app.md"
+  ],
+  "modules": {
+    "frontend": {
+      "label": "Frontend",
+      "default": "vite-spa",
+      "options": [
+        {
+          "id": "vite-spa",
+          "label": "Vite React SPA",
+          "files": [
+            "frontend/vite-spa.md",
+            "frontend/react-query-zustand.md"
+          ]
+        },
+        {
+          "id": "nextjs-ssr",
+          "label": "Next.js SSR",
+          "files": [
+            "frontend/nextjs-ssr.md",
+            "frontend/react-query-zustand.md"
+          ]
+        }
+      ]
+    },
+    "ui": {
+      "label": "UI Styling",
+      "default": "mui",
+      "options": [
+        {
+          "id": "mui",
+          "label": "Material UI",
+          "files": ["frontend/mui.md"]
+        },
+        {
+          "id": "styled-components",
+          "label": "Styled Components",
+          "files": ["frontend/styled-components.md"]
+        }
+      ]
+    },
+    "backend": {
+      "label": "Backend",
+      "default": "express-sequelize",
+      "options": [
+        {
+          "id": "express-sequelize",
+          "label": "Express + Sequelize",
+          "files": [
+            "backend/express-sequelize.md",
+            "backend/api-response-pattern.md",
+            "backend/request-error-pattern.md",
+            "backend/auth-patterns.md"
+          ]
+        }
+      ]
+    },
+    "database": {
+      "label": "Database",
+      "default": "postgres",
+      "options": [
+        {
+          "id": "postgres",
+          "label": "Postgres",
+          "files": ["database/postgres.md"]
+        },
+        {
+          "id": "mysql",
+          "label": "MySQL",
+          "files": ["database/mysql.md"]
+        },
+        {
+          "id": "mongodb",
+          "label": "MongoDB",
+          "files": ["database/mongodb.md"]
+        }
+      ]
+    },
+    "architecture": {
+      "label": "Architecture",
+      "default": "simple-mvp",
+      "options": [
+        {
+          "id": "simple-mvp",
+          "label": "Simple MVP",
+          "files": ["architecture/simple-mvp.md"]
+        },
+        {
+          "id": "monorepo",
+          "label": "Monorepo",
+          "files": ["architecture/monorepo.md"]
+        },
+        {
+          "id": "microservices",
+          "label": "Microservices",
+          "files": ["architecture/microservices.md"]
+        }
+      ]
+    }
+  }
+}

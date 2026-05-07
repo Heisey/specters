@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Specs Playbook Manifest",
+  "type": "object",
+  "required": ["id", "name", "description", "baseFiles", "modules"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "baseFiles": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "modules": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["label", "default", "options"],
+        "properties": {
+          "label": { "type": "string" },
+          "default": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "label", "files"],
+              "properties": {
+                "id": { "type": "string" },
+                "label": { "type": "string" },
+                "files": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
