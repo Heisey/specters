@@ -22,7 +22,7 @@ SaaS Application
 - backend/api-response-pattern.md
 - backend/request-error-pattern.md
 - backend/auth-patterns.md
-- database/postgres.md
+- database/postgres/postgres.md
 - architecture/simple-mvp.md
 
 ## Project Overrides

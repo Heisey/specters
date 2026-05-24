@@ -4,9 +4,9 @@
 How to choose the right database for a project.
 
 ## Options
-- Postgres → `database/postgres.md`
-- MySQL → `database/mysql.md`
-- MongoDB → `database/mongodb.md`
+- Postgres → `database/postgres/postgres.md`
+- MySQL → `database/mysql/mysql.md`
+- MongoDB → `database/mongodb/mongodb.md`
 
 ## Decision Rules
 
@@ -21,6 +21,6 @@ How to choose the right database for a project.
 **Postgres** unless there is a specific reason to use something else.
 
 ## Related Files
-- database/postgres.md
-- database/mysql.md
-- database/mongodb.md
+- database/postgres/postgres/.md
+- database/mysql/mysql.md
+- database/mongodb/mongodb.md

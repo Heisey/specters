@@ -27,5 +27,5 @@ Profile and rules for standard SaaS application projects.
 ## Related Files
 - core/ai-coding-rules.md
 - backend/auth-patterns.md
-- database/postgres.md
+- database/postgres/postgres.md
 - decisions/architecture-choice.md

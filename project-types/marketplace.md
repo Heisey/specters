@@ -27,5 +27,5 @@ Profile and rules for two-sided marketplace projects.
 ## Related Files
 - core/ai-coding-rules.md
 - backend/auth-patterns.md
-- database/postgres.md
+- database/postgres/postgres.md
 - architecture/simple-mvp.md
